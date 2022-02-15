@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.2">
+  <object class="ttk.Frame" id="mainFrame">
+    <property name="cursor">pirate</property>
+    <property name="height">600</property>
+    <property name="width">800</property>
+    <layout manager="grid">
+      <property name="column">0</property>
+      <property name="row">0</property>
+    </layout>
+    <child>
+      <object class="ttk.Button" id="switch1">
+        <property name="command" type="command" cbtype="simple">toggleSwitch1</property>
+        <property name="compound">top</property>
+        <property name="cursor">sailboat</property>
+        <property name="image">light-bulb-icon - Copy.png</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">switch1</property>
+        <property name="textvariable">string:switch1Text</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="ipadx">0</property>
+          <property name="ipady">0</property>
+          <property name="padx">50</property>
+          <property name="pady">50</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button2">
+        <property name="command" type="command" cbtype="simple">toggleSwitch2</property>
+        <property name="compound">top</property>
+        <property name="cursor">sailboat</property>
+        <property name="image">light-bulb-icon - Copy.png</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">switch2</property>
+        <property name="textvariable">string:switch2Text</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="ipadx">0</property>
+          <property name="ipady">0</property>
+          <property name="padx">50</property>
+          <property name="pady">50</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button3">
+        <property name="command" type="command" cbtype="simple">toggleSwitch3</property>
+        <property name="compound">top</property>
+        <property name="cursor">sailboat</property>
+        <property name="image">light-bulb-icon - Copy.png</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">switch3</property>
+        <property name="textvariable">string:switch3Text</property>
+        <layout manager="grid">
+          <property name="column">3</property>
+          <property name="ipadx">0</property>
+          <property name="ipady">0</property>
+          <property name="padx">50</property>
+          <property name="pady">50</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button4">
+        <property name="command" type="command" cbtype="simple">toggleSwitch4</property>
+        <property name="compound">top</property>
+        <property name="cursor">sailboat</property>
+        <property name="image">light-bulb-icon - Copy.png</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">switch4</property>
+        <property name="textvariable">string:switch4Text</property>
+        <layout manager="grid">
+          <property name="column">4</property>
+          <property name="ipadx">0</property>
+          <property name="ipady">0</property>
+          <property name="padx">50</property>
+          <property name="pady">50</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button5">
+        <property name="command" type="command" cbtype="simple">toggleSwitch5</property>
+        <property name="compound">top</property>
+        <property name="cursor">sailboat</property>
+        <property name="image">light-bulb-icon - Copy.png</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">switch5</property>
+        <property name="textvariable">string:switch5Text</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="columnspan">3</property>
+          <property name="ipadx">0</property>
+          <property name="ipady">0</property>
+          <property name="padx">60</property>
+          <property name="pady">50</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button6">
+        <property name="command" type="command" cbtype="simple">toggleSwitch6</property>
+        <property name="compound">top</property>
+        <property name="cursor">sailboat</property>
+        <property name="image">light-bulb-icon - Copy.png</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">switch6</property>
+        <property name="textvariable">string:switch6Text</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="columnspan">3</property>
+          <property name="ipadx">0</property>
+          <property name="ipady">0</property>
+          <property name="padx">50</property>
+          <property name="pady">50</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button7">
+        <property name="command" type="command" cbtype="simple">toggleSwitch7</property>
+        <property name="compound">top</property>
+        <property name="cursor">sailboat</property>
+        <property name="image">light-bulb-icon - Copy.png</property>
+        <property name="state">normal</property>
+        <property name="text" translatable="yes">switch7</property>
+        <property name="textvariable">string:switch7Text</property>
+        <layout manager="grid">
+          <property name="column">3</property>
+          <property name="columnspan">3</property>
+          <property name="ipadx">0</property>
+          <property name="ipady">0</property>
+          <property name="padx">50</property>
+          <property name="pady">50</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
